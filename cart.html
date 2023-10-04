@@ -1,0 +1,165 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-com_Cart_Page </title>
+    <link rel="stylesheet" href="E-Commerce_page.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+      
+</head>
+<body>
+
+    <!-- Header code -->
+    
+    
+    <section id="header">
+        <a href="#"><img src="img/logo4.png"  class="logo" alt=""></a>
+        
+        <div>
+            <ul id="navbar">
+                <li><a  href="E-Com_HomePage.html">Home</a></li>
+                <li><a  href="Shop_page.html">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li> 
+                <li><a href="cart.html" class="active"><i class="ri-shopping-bag-line cart "></i></a></li>
+                <a href="#" id="close"><i class="ri-close-fill"></i></a>
+            </ul>
+        </div>
+        <!-- 90673 90372 -->
+        <!-- For mobile hamburger menu -->
+        <div id="mobile">
+            <i class="ri-shopping-bag-line cart"></i>
+            <i id="bar" class="ri-menu-fold-line"></i>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <div class="pro-container">
+            <div class="pro shop-Item" >
+                <img src="img/products/f1.jpg" class="pro-image" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5 class="pro-title">Product1</h5>
+                    <div class="star">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                    </div>
+                    <h4 class="pro-price">₹ 179</h4>
+                </div>
+                <i class="ri-shopping-cart-2-line cart cart-bn" type="button" ></i>
+            </div>
+        </div>
+    </section>    
+    <!-- Header code ends -->
+
+    <section id="cart" class="section-p1">
+        <table width="100%" >
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody class="cart-items"> 
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td class="cart-total-price">₹ 199</td>
+                </tr>
+            </table>
+            <button class="normal">Proceed to Checkout</button>
+        </div>
+    </section>
+
+
+
+    <!-- FOOTER CODE BEGINS -->
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo4.png" alt="">
+            <h3>Contact</h3>
+            <p><strong>Address:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p><strong>Phone:</strong> 001 - 6969696969</p>
+            <p><strong>Hours:</strong>Saturday, 22 October 2022 (IST)</p>
+            <div class="follow">
+                <h3>Follow us</h3>
+                <div class="icon">
+                    <i class="ri-facebook-fill"></i>
+                    <i class="ri-instagram-line"></i>
+                    <i class="ri-twitter-fill"></i>
+                    <i class="ri-pinterest-line"></i>
+                    <i class="ri-youtube-fill"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col">
+            <h3>About</h3>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h3>My Account</h3>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h3>Install App</h3>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2022, Suidhaga Corporation Pvt. Ltd. All Rights Reserved.</p>
+        </div>
+    
+    </footer>
+
+        <!-- FOOTER ENDS -->
+
+    <script src="E-Commerce_page.js"></script>
+</body>
+</html>
