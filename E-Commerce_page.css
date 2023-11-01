@@ -84,7 +84,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4px 10px 0 20px;
+  padding: 4px 10% 0 5%;
   background: #e3e6f3;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
@@ -167,33 +167,28 @@ body {
 /*<------ Hero -------->*/
 
 #hero {
-  /* background-image: url(img/hero4.jpeg); */
+  background-image: url(img/hero4.jpeg);
   height: 90vh;
   width: 100%;
-  background-color: #060F1E;
-  /* background-size: cover; */
-  /* background-position: top 25% right 0; */
-  /* padding: 50 80px; */
+  /* background-color: #060F1E; */
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 50 80px;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   gap: 5%;
   align-items: center;
 
-  /* align-items: flex-start; */
+  align-items: flex-start;
   justify-content: center;
-  /* justify-content:left; */
+  justify-content:left;
 }
 #hero h4 {
   padding-bottom: 15px;
 }
 #hero h1 {
-  font-size: 30vh;
-  color: transparent;
+  font-size: 6vh;
   font-weight: 100;
-  z-index: 9999;
-  -webkit-text-stroke: 2px #E3E6F3;
-  /* -webkit-text-stroke-color: #000; */
-  /* -webkit-text-fill-color: white; */
 }
 #hero h1:hover{
     color: #E3E6F3;
